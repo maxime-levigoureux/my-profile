@@ -1,0 +1,135 @@
+body {
+	background-image: url(white.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 2000px;
+	margin: 75px;
+	background-image-opacity: 20%;
+	padding: 90px
+	width: 1000px;
+
+
+}
+
+h1 {
+	background-color: rgb(240, 240, 240);
+	background-position: center;
+	font-weight: 1000;
+	text-align: center;	
+	font-family: Courier;
+	border-color: white;
+	font-size: xxx-large;
+	font-variant: small-caps slashed-zero;
+	border: dashed grey;
+	padding: 20px;
+}
+h2, h3{
+	background-color: #495464;
+	background-position: center;
+	text-align: center;	
+	color: white;
+	font-style: bold;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: xx-large;
+	border: 4mm ridge rgba(0, 0, 0, .6);
+	font-weight: lighter;
+	border-image: repeating-linear-gradient(46deg, #A2A2A3, #38529E, #7A85A4) 8;
+
+}
+
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 30px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+h4	{
+	text-align: center;
+	margin: 50px;
+	font-family: 'Playfair Display', serif;
+
+}
+
+p {
+	background-color: #e8e8e8;
+	background-position: center;
+	font-weight: light;
+	text-align: justify;
+	font-size: 15px;
+	font-variant-alternates: swash
+	font-family: 'Source Sans Pro', sans-serif;	
+	border: dotted #495464;
+	transition: color 0.5s ease;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 40px auto;
+	widows: 300px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+	opacity: 80%;
+
+}
+
+p:hover {
+    background-color: grey;
+    background-position: center;
+    opacity: shadow;
+    color: white;
+    zoom: 1.1;
+    border: dashed white;
+    font-family: 'Inconsolata', monospace;
+    transition-duration: color 2s;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 2);
+    opacity: 100%;
+
+}
+
+
+ul {
+	text-align: center;	
+	font-size: xxx-large;
+	padding:150px
+	width: 100px;
+	display: inline;
+}
+
+a {
+	color: #495464;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color: black;
+	zoom: 1.24;
+}
+
+
+@media (max-width: 1280px) {
+ 	.container {
+    	width: 730px;
+
+ }
+
+@media (max-width: 960px) {
+ 	.container {
+    	width: 730px;
+ }
+
+@media (max-width: 800px) {
+	.container {
+    	width: 500px;
+  }
+
+@media (max-width: 540px) {
+	 .container {
+    	width: 300px;
+  }
